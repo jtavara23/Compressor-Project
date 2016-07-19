@@ -1,0 +1,18 @@
+Josue Tavara Idrogo- nºUSP:9715192
+Segundo Cruz Silva - nºUSP:9713759
+
+INSTRUÇÕES DE COMPILAÇÃO:
+
+1)Extraia os arquivos da pasta.
+2)Na linha de comando execute o comando: "g++ main.cpp -o main.exe"
+3)O comando faz a compilação do programa ,este cria o programa 'main.exe' que será o executável.
+
+INSTRUÇÕES DE EXECUÇÃO:
+1)Extraia os arquivos da pasta.
+2)Tenha os arquivos que serão testados junto ao diretório do programa
+3)Na linha de comando execute os comandos:
+	 "main encode -i arquivo_original.txt -o arquivo_binario.bin --bwt=X --txtblck=X --huffman=X –-runl=X"
+	 ou 
+	 "main decode -i arquivo_binario.bin -o arquivo_descomprimido.txt"
+
+	 **Onde 'X' pode ser [true/false] ou [1/0] 
